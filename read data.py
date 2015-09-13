@@ -21,3 +21,5 @@ df = pd.read_excel(location, 0, index_col='Status Date')
 print df.dtypes
 
 print df.index
+
+print df.head()
