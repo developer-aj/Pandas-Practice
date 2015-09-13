@@ -50,12 +50,3 @@ print df.head()
 
 df.to_excel('Lesson3.xlsx', index=False)
 print 'Done'
-
-#reading xlsx file
-location = r'Lesson3.xlsx'
-
-# parse a specific sheet
-df = pd.read_excel(location, 0, index_col='Status Date')
-print df.dtypes
-
-print df.index
